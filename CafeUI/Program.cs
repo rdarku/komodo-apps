@@ -1,9 +1,5 @@
 ﻿using CafeUI.UI;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CafeUI
 {
@@ -11,7 +7,8 @@ namespace CafeUI
     {
         static void Main(string[] args)
         {
-            MenuManager menuManager = new MenuManager();
+            Console.Title = "Komodo Apps - Cafe Manager";
+            MenuManager menuManager = new MenuManager(new RealConsole());
             menuManager.Run();
         }
     }

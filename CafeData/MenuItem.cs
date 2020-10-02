@@ -19,14 +19,16 @@ namespace CafeData
 
         public decimal Price { get; set; }
 
-        public MenuItem() { }
+        public MenuItem() {
+            Ingredients = new List<string>();
+        }
 
         public MenuItem(int mealNumber, string mealName, string description, List<string> ingredients, decimal price)
         {
             MealNumber = mealNumber;
             MealName = mealName;
             Description = description;
-            Ingredients = ingredients;
+            Ingredients = new List<string>(ingredients);
             Price = price;
         }
     }

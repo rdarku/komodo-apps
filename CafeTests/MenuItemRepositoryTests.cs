@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace CafeTests
 {
     [TestClass]
-    public class CafeTests
+    public class MenuItemRepositoryTests
     {
         private MenuItemRepository _repository;
         private MenuItem _menuItem;
