@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoApps", "KomodoApps\KomodoApps.csproj", "{C91C029E-1159-4498-9F10-7517141777BC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cafe", "Cafe", "{7FA0A170-35E5-448D-8EF1-0C8A5D641B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeUI", "CafeUI\CafeUI.csproj", "{6E7EADF1-AC72-4372-812C-BA304B6C896F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeData", "CafeData\CafeData.csproj", "{8CA58584-97FC-4EC5-99DE-811F8816F829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeTests", "CafeTests\CafeTests.csproj", "{8113A5CA-7862-45AF-BA99-78F67E2D6FB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,26 @@ Global
 		{C91C029E-1159-4498-9F10-7517141777BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C91C029E-1159-4498-9F10-7517141777BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C91C029E-1159-4498-9F10-7517141777BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E7EADF1-AC72-4372-812C-BA304B6C896F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E7EADF1-AC72-4372-812C-BA304B6C896F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E7EADF1-AC72-4372-812C-BA304B6C896F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E7EADF1-AC72-4372-812C-BA304B6C896F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA58584-97FC-4EC5-99DE-811F8816F829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA58584-97FC-4EC5-99DE-811F8816F829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA58584-97FC-4EC5-99DE-811F8816F829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA58584-97FC-4EC5-99DE-811F8816F829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8113A5CA-7862-45AF-BA99-78F67E2D6FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8113A5CA-7862-45AF-BA99-78F67E2D6FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8113A5CA-7862-45AF-BA99-78F67E2D6FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8113A5CA-7862-45AF-BA99-78F67E2D6FB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E7EADF1-AC72-4372-812C-BA304B6C896F} = {7FA0A170-35E5-448D-8EF1-0C8A5D641B09}
+		{8CA58584-97FC-4EC5-99DE-811F8816F829} = {7FA0A170-35E5-448D-8EF1-0C8A5D641B09}
+		{8113A5CA-7862-45AF-BA99-78F67E2D6FB7} = {7FA0A170-35E5-448D-8EF1-0C8A5D641B09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F4EFBDD-4C08-4105-B27C-A26D5199D080}
