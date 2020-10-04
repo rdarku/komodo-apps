@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace ClaimsData
 {
@@ -38,6 +34,25 @@ namespace ClaimsData
         public bool RemoveClaim(Claim claim)
         {
             return _claims.Remove(claim);
+        }
+
+        public bool UpdateClaim(int claimID, Claim claim)
+        {
+            Claim foundClaim = GetClaimByID(claimID);
+
+            if(foundClaim != null)
+            {
+                foundClaim.ClaimAmount = claim.ClaimAmount;
+                foundClaim.ClaimID = claim.ClaimID;
+                foundClaim.ClaimType = claim.ClaimType;
+                foundClaim.DateOfClaim = claim.DateOfClaim;
+                foundClaim.DateOfIncident = claim.DateOfIncident;
+                foundClaim.Description = claim.Description;
+
+                return true;
+            }
+            
+            return false;
         }
     }
 }

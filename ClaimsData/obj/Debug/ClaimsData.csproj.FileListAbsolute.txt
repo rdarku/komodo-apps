@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsData\bin\Debug\ClaimsData.dll
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsData\bin\Debug\ClaimsData.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsData\obj\Debug\ClaimsData.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsData\obj\Debug\ClaimsData.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsData\obj\Debug\ClaimsData.dll
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsData\obj\Debug\ClaimsData.pdb
