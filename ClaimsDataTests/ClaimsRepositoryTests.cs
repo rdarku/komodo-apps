@@ -1,10 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ClaimsData;
+﻿using ClaimsData;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClaimsTests
 {
@@ -22,7 +18,7 @@ namespace ClaimsTests
             uniqueNewClaim = new Claim() { 
                 ClaimAmount = 40000m,
                 ClaimID = 1,
-                ClaimType = ClaimType.Car,
+                TypeOfClaim = ClaimType.Car,
                 Description = "Collision on Hudson avenue",
                 DateOfClaim = DateTime.Now,
                 DateOfIncident = new DateTime(2020,9,11)
@@ -63,6 +59,14 @@ namespace ClaimsTests
             Claim foundClaim = _claimsRepository.GetClaimByID(1);
 
             Assert.AreEqual(foundClaim, uniqueNewClaim);
+        }
+
+        [TestMethod]
+        public void GetNextClaim_ShouldReturnCorrectClaim()
+        {
+            Claim nextClaim = _claimsRepository.GetNextClaim();
+
+            Assert.AreEqual(nextClaim, uniqueNewClaim);
         }
     }
 }

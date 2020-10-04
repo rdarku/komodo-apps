@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C91C029E-1159-4498-9F10-7517141777BC}</ProjectGuid>
+    <ProjectGuid>{B6C7B84B-951A-4246-8ABC-9D80DBB9F597}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>KomodoApps</RootNamespace>
-    <AssemblyName>KomodoApps</AssemblyName>
+    <RootNamespace>ClaimsUI</RootNamespace>
+    <AssemblyName>ClaimsUI</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FakeConsole.cs" />
-    <Compile Include="IConsole.cs" />
+    <Compile Include="ClaimsManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RealConsole.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClaimsData\ClaimsData.csproj">
+      <Project>{68402A1A-2DB0-4756-A827-944FD7F85AD1}</Project>
+      <Name>ClaimsData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KomodoApps\KomodoApps.csproj">
+      <Project>{C91C029E-1159-4498-9F10-7517141777BC}</Project>
+      <Name>KomodoApps</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,16 +4,16 @@ namespace ClaimsData
 {
     public class ClaimsRepository
     {
-        private readonly List<Claim> _claims = new List<Claim>();
+        private readonly Queue<Claim> _claims = new Queue<Claim>();
 
         public bool AddClaim(Claim claim)
         {
             int countBeforAdd = _claims.Count;
-            _claims.Add(claim);
+            _claims.Enqueue(claim);
             return _claims.Count > countBeforAdd;
         }
 
-        public List<Claim> GetAllClaims()
+        public Queue<Claim> GetAllClaims()
         {
             return _claims;
         }
@@ -31,9 +31,16 @@ namespace ClaimsData
             return null;
         }
 
+        public Claim GetNextClaim()
+        {
+            return (_claims.Count > 0) ? _claims.Peek() : null;
+           
+        }
+
         public bool RemoveClaim(Claim claim)
         {
-            return _claims.Remove(claim);
+            var removedClaim = _claims.Dequeue();
+            return (claim == removedClaim);
         }
 
         public bool UpdateClaim(int claimID, Claim claim)
@@ -44,7 +51,7 @@ namespace ClaimsData
             {
                 foundClaim.ClaimAmount = claim.ClaimAmount;
                 foundClaim.ClaimID = claim.ClaimID;
-                foundClaim.ClaimType = claim.ClaimType;
+                foundClaim.TypeOfClaim = claim.TypeOfClaim;
                 foundClaim.DateOfClaim = claim.DateOfClaim;
                 foundClaim.DateOfIncident = claim.DateOfIncident;
                 foundClaim.Description = claim.Description;

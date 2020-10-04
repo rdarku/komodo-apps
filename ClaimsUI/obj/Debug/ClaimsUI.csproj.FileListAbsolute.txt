@@ -1,0 +1,13 @@
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\bin\Debug\ClaimsUI.exe.config
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\bin\Debug\ClaimsUI.exe
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\bin\Debug\ClaimsUI.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\bin\Debug\ClaimsData.dll
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\bin\Debug\KomodoApps.exe
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\bin\Debug\ClaimsData.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\bin\Debug\KomodoApps.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\bin\Debug\KomodoApps.exe.config
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\obj\Debug\ClaimsUI.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\obj\Debug\ClaimsUI.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\obj\Debug\ClaimsUI.csproj.CopyComplete
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\obj\Debug\ClaimsUI.exe
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsUI\obj\Debug\ClaimsUI.pdb

@@ -14,3 +14,9 @@ C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Cl
 C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsDataTests\obj\Debug\ClaimsTests.csproj.CopyComplete
 C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsDataTests\obj\Debug\ClaimsTests.dll
 C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsDataTests\obj\Debug\ClaimsTests.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsDataTests\bin\Debug\ClaimsUI.exe
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsDataTests\bin\Debug\KomodoApps.exe
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsDataTests\bin\Debug\ClaimsUI.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsDataTests\bin\Debug\ClaimsUI.exe.config
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsDataTests\bin\Debug\KomodoApps.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\ClaimsDataTests\bin\Debug\KomodoApps.exe.config

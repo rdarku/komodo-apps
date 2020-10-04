@@ -28,7 +28,6 @@ namespace CafeUI.UI
         {
             while (_keepRunning)
             {
-                PrintBanner();
                 _console.WriteLine("Welcome to the Komodo Cafe!\n" +
                     "Please select an action from the action list below\n" +
                     "(1) Get all Menu Items\n" +
@@ -330,17 +329,15 @@ namespace CafeUI.UI
 
         private void DisplayMenuItemsList()
         {
-            string header = String.Format("{0,-10}{1,-20}{2,10:C}",
+            string header = string.Format("{0,-10}{1,-20}{2,10:C}",
                     "Meal #", "Meal Name", "Price");
-
-            var some = "meal".ToLower();
 
             _console.WriteLine(header);
             
             _console.WriteLine("--------------------------------------------------");
             foreach (var item in _menuItemRepository.GetAllMenuItems())
             {
-                _console.WriteLine(String.Format("{0,-10}{1,-20}{2,10:C}",
+                _console.WriteLine(string.Format("{0,-10}{1,-20}{2,10:C}",
                     item.MealNumber, item.MealName, item.Price));
             }
             _console.WriteLine("--------------------------------------------------\n");
