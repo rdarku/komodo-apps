@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using ClaimsUI;
+using Claims.UI;
 using KomodoApps;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace ClaimsTests
+namespace Claims.Tests
 {
     [TestClass]
     public class ClaimsUITests

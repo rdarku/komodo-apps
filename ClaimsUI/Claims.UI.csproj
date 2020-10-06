@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B6C7B84B-951A-4246-8ABC-9D80DBB9F597}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClaimsUI</RootNamespace>
-    <AssemblyName>ClaimsUI</AssemblyName>
+    <RootNamespace>Claims.UI</RootNamespace>
+    <AssemblyName>Claims.UI</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,9 +51,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClaimsData\ClaimsData.csproj">
+    <ProjectReference Include="..\ClaimsData\Claims.Data.csproj">
       <Project>{68402A1A-2DB0-4756-A827-944FD7F85AD1}</Project>
-      <Name>ClaimsData</Name>
+      <Name>Claims.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\KomodoApps\KomodoApps.csproj">
       <Project>{C91C029E-1159-4498-9F10-7517141777BC}</Project>

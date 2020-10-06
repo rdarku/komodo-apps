@@ -1,0 +1,13 @@
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\bin\Debug\Badges.UI.exe.config
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\bin\Debug\Badges.UI.exe
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\bin\Debug\Badges.UI.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\bin\Debug\Badges.Data.dll
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\bin\Debug\KomodoApps.exe
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\bin\Debug\Badges.Data.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\bin\Debug\KomodoApps.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\bin\Debug\KomodoApps.exe.config
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\obj\Debug\Badges.UI.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\obj\Debug\Badges.UI.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\obj\Debug\Badges.UI.csproj.CopyComplete
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\obj\Debug\Badges.UI.exe
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.UI\obj\Debug\Badges.UI.pdb

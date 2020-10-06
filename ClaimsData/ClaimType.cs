@@ -1,4 +1,4 @@
-﻿namespace ClaimsData
+﻿namespace Claims.Data
 {
     public enum ClaimType
     {

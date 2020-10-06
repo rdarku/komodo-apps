@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleManager.cs" />
     <Compile Include="FakeConsole.cs" />
     <Compile Include="IConsole.cs" />
     <Compile Include="Program.cs" />

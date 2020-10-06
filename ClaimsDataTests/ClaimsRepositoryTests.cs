@@ -1,8 +1,8 @@
-﻿using ClaimsData;
+﻿using Claims.Data;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace ClaimsTests
+namespace Claims.Tests
 {
     [TestClass()]
     public class ClaimsRepositoryTests

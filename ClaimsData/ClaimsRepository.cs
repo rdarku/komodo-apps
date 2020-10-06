@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ClaimsData
+namespace Claims.Data
 {
     public class ClaimsRepository
     {

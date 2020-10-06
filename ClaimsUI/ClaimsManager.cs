@@ -1,9 +1,9 @@
-﻿using ClaimsData;
+﻿using Claims.Data;
 using KomodoApps;
 using System;
 using System.Threading;
 
-namespace ClaimsUI
+namespace Claims.UI
 {
     public class ClaimsManager
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClaimsData
+namespace Claims.Data
 {
     public class Claim
     {
