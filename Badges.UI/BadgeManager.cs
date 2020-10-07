@@ -10,7 +10,7 @@ namespace Badges.UI
         private BadgeRepository _badgeRepository = new BadgeRepository();
 
         public BadgeManager(IConsole console)
-            : base(console, "Komodo Access Bagde Manager") {}
+            : base(console, "Komodo Key Bagde Manager") {}
         
         public override void SetBanner()
         {
@@ -127,6 +127,10 @@ namespace Badges.UI
                                 InvalidEditOption();
                                 break;
                         }
+                    }
+                    else
+                    {
+                        InvalidEditOption();
                     }
                 }
             }
@@ -274,7 +278,7 @@ namespace Badges.UI
 
             if (_badgeRepository.AddBadge(newBadge))
             {
-                _console.WriteLine("\nBadge Added Successfully!.");
+                _console.WriteLine("\nBadge Added Successfully!.\n");
             }
             else
             {
@@ -289,7 +293,6 @@ namespace Badges.UI
             _console.WriteLine("\nList a door that it needs access to :");
 
             string input = _console.ReadLine();
-
             if (!string.IsNullOrWhiteSpace(input))
             {
                 badge.Doors.Add(input);
@@ -317,8 +320,6 @@ namespace Badges.UI
                     ReturnOrQuit();
                 }
             }
-
-
         }
 
         private void SetBadgeID(ref Badge badge)

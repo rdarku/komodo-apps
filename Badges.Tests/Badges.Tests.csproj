@@ -61,6 +61,14 @@
       <Project>{EB9EE634-7FA6-40E4-B4E3-4A01A9FB1837}</Project>
       <Name>Badges.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Badges.UI\Badges.UI.csproj">
+      <Project>{7B93FD8F-FC6C-4096-AFFC-F6ABC28062F1}</Project>
+      <Name>Badges.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KomodoApps\KomodoApps.csproj">
+      <Project>{C91C029E-1159-4498-9F10-7517141777BC}</Project>
+      <Name>KomodoApps</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

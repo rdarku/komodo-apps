@@ -98,7 +98,7 @@ namespace KomodoApps
         protected void ExitApp()
         {
             _keepRunning = false;
-            _console.WriteLine($"\nThanks you for using the {_appName}\n Have a great day!\n");
+            _console.WriteLine($"\nThank you for using the {_appName}\n Have a great day!\n");
             Thread.Sleep(3000);
         }
 

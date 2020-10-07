@@ -14,3 +14,9 @@ C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Ba
 C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.Tests\obj\Debug\Badges.Tests.pdb
 C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.Tests\bin\Debug\Badges.Data.dll
 C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.Tests\bin\Debug\Badges.Data.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.Tests\bin\Debug\Badges.UI.exe
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.Tests\bin\Debug\KomodoApps.exe
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.Tests\bin\Debug\Badges.UI.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.Tests\bin\Debug\Badges.UI.exe.config
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.Tests\bin\Debug\KomodoApps.pdb
+C:\ElevenFiftyProjects\DotNetProjects\GoldBadgeConsoleAppChallenge\KomodoApps\Badges.Tests\bin\Debug\KomodoApps.exe.config
